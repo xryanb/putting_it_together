@@ -8,10 +8,10 @@ class PersonCard extends Component {
             super(props);
             console.log(this.props);
             this.state={
-                firstName: this.props.firstName,
-                lastName: this.props.lastName,
-                age:this.props.age,
-                hairColor:this.props.hairColor
+                firstName: this.props.person.firstName,
+                lastName: this.props.person.lastName,
+                age:this.props.person.age,
+                hairColor:this.props.person.hairColor
             }
         }
 
